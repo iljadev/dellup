@@ -1,0 +1,183 @@
+body {
+  background-color: #f2f2f2;
+  padding-top: 70px;
+  
+}
+
+.map iframe{
+    pointer-events: none;
+}
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.btn_menu{
+	display:block;
+    margin: 0 px auto;
+	width: 140px;
+	float:center;
+	background-color:#3498db;
+	color:#f2f2f2;
+	border-radius: 4px;
+	
+	text-align: center;
+}
+.btn_choose{
+
+    
+
+	
+	background-color:white;
+	color:#3498db;
+	
+	font-size: 20px;
+	text-align: center;
+}
+.thumbnail:hover{
+	
+	color:#3498db;
+	border: 1px solid #3498db;
+}
+.btn_choose:hover{
+	background-color: #3498db;
+	color:white;
+	
+}
+.btn_menu:hover{
+	background-color: #f2f2f2;
+	color:#3498db;
+	border: 1px solid #3498db;
+}
+.btn_search{
+
+    margin: 0 px auto;
+	width: auto;
+	float:center;
+	background-color:#3498db;
+	color:#f2f2f2;
+	border-radius: 4px;
+	
+	text-align: center;
+	
+}
+.btn_search:hover{
+	background-color: #f2f2f2;
+	color:#3498db;
+	border: 1px solid #3498db;
+}
+
+.form-control{
+	max-width:display-width;
+	
+}
+
+.panel-heading{
+	background-color:#f2f2f2;
+	
+}
+
+ .carousel-indicators li {
+   
+   background-color: #808080;
+   
+        
+}
+.carousel-indicators .active {
+ 
+     background-color: #696969;
+}
+ .carousel-inner {
+      width: 100%;
+      margin: auto;
+}
+.thumbnail{
+	height:420px;
+	
+}
+.thumbnail-device{
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+tr{
+	text-align:center;
+	font-size:auto;
+}
+td{
+	text-align:left;
+	border:none ; 
+	font-size: 80%;
+}
+p{
+	font-size:auto;
+}
+
+.navbar-brand>img {
+  height: 100%;
+ 
+  width: auto;
+}
+
+.nav-tabs{
+	
+	margin:10 px;
+}
+.panel-body{
+	background-color:transparent 0.5;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input { 
+
+  margin-bottom: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+	
+/* Portrait tablet to landscape and desktop */
+@media only screen and (min-width: 768px) {
+   .navbar-brand-mini {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+body{
+	min-width:device-width;
+}	
+
+.device_img{
+	 height:25%;
+	
+}
+
+
+}
